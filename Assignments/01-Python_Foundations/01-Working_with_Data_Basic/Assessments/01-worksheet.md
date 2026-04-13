@@ -7,10 +7,10 @@ Use this worksheet to review and reinforce your understanding of Python data con
 ## 🧠 Section 1: Lists
 
 1. What method adds an item to the end of a list?  
-   `Answer:` ____________________________
+   `Answer:` __________append()____________
 
 2. How can you remove an item from a list by value?  
-   `Answer:` ____________________________
+   `Answer:` _________remove()_________
 
 3. What’s the result of this code?
 
@@ -20,7 +20,7 @@ nums.append(8)
 print(nums)
 ```
 
-   `Answer:` ____________________________
+   `Answer:` _____2, 4, 6, 8______
 
 ---
 
@@ -31,16 +31,18 @@ print(nums)
 # Add another food to the list.
 # Remove one item and print the list.
 ```
-
----
+pets = [rabbit, dog, cat, turtle, hamster]
+pets.append("monkey")
+pets.remove("cat")
+print(pets)
 
 ## 🔒 Section 2: Tuples
 
 4. What is a key difference between a list and a tuple?  
-   `Answer:` ____________________________
+   `Answer:` __Lists can change (mutable) and tuple's cannot be changed (immutable)___
 
 5. Can you change the contents of a tuple once it is created? Why or why not?  
-   `Answer:` ____________________________
+   `Answer:` _____No because tupples cannot be changed or modified after their creation____
 
 ---
 
@@ -50,17 +52,17 @@ print(nums)
 # Create a tuple with your favorite 3 numbers.
 # Unpack it into three variables and print each.
 ```
-
----
+numbers = (28, 22, 4)
+a, b, c = numbers
+print(numbers)
 
 ## 🔑 Section 3: Dictionaries
 
 6. What does the `.get()` method do differently from accessing a key directly?  
-   `Answer:` ____________________________
+   `Answer:` ___.get() returns none if the key doesn't exist instead of causing an error____
 
 7. How do you loop through both keys and values in a dictionary?  
-   `Answer:` ____________________________
-
+   `Answer:` ___Using .items()_____
 ---
 
 ### ✏️ Task: Dictionary Practice
@@ -69,11 +71,12 @@ print(nums)
 # Create a dictionary with keys: 'name', 'age', and 'hobby'.
 # Print each key and value in the format "key: value".
 ```
-
----
+person = { "name": "Vicky","age": 21,"hobby": "singing" }
+for key, value in person.items():
+    print(f"{key}: {value}")
 
 ## 🧾 Submit Checklist
 
-- [ ] I practiced creating and modifying lists.
-- [ ] I understand how tuples are different from lists.
-- [ ] I accessed and looped through dictionary items.
+- [x] I practiced creating and modifying lists.
+- [x] I understand how tuples are different from lists.
+- [x] I accessed and looped through dictionary items.
