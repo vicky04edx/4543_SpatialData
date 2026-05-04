@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.65362,
+          42.57952
+        ]
+      },
+      "properties": {
+        "city-name": "El Tarter",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.49129,
+          42.46372
+        ]
+      },
+      "properties": {
+        "city-name": "Sant Julia de Loria",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.73361,
+          42.54277
+        ]
+      },
+      "properties": {
+        "city-name": "Pas de la Casa",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.53319,
+          42.55623
+        ]
+      },
+      "properties": {
+        "city-name": "Ordino",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.53414,
+          42.50729
+        ]
+      },
+      "properties": {
+        "city-name": "les Escaldes",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.51483,
+          42.54499
+        ]
+      },
+      "properties": {
+        "city-name": "la Massana",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.58014,
+          42.53474
+        ]
+      },
+      "properties": {
+        "city-name": "Encamp",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.59756,
+          42.5676
+        ]
+      },
+      "properties": {
+        "city-name": "Canillo",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.48453,
+          42.57205
+        ]
+      },
+      "properties": {
+        "city-name": "Arinsal",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.52109,
+          42.50779
+        ]
+      },
+      "properties": {
+        "city-name": "Andorra la Vella",
+        "country-code": "AD",
+        "time-zone": "Europe/Andorra"
+      }
+    }
+  ]
+}
